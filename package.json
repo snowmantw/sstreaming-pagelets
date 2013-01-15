@@ -1,0 +1,32 @@
+
+{
+    "name": "LocalLayering.js",
+    "version": "0.0.1",
+    "main": "./server.js",
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/snowmantw/locallayering.js.git"
+    },
+
+    "keywords":
+    [
+        "cg"
+    ],
+
+    "dependencies":
+    {
+        "cheerio":"0.10.x",
+        "underscore": "1.4.x",
+        "express": "3.x",
+        "ejs":"0.7.x",
+        "websocket":"1.0.7"
+    },
+
+    "license": "GPLv3",
+    "engines": 
+    {   
+        "node": ">=0.6",
+        "npm": "1.1.x"
+    }
+}
