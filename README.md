@@ -18,4 +18,11 @@ Cost:
 
 About cache:
 
-Server may use cache to prevent read files everytime. 
+Server may use cache to prevent read files everytime.
+
+I'm also considering to put whole single-page-application in user's browser by using `localStorage`.
+This tech can help us manage this "application" like ordinary applications in OS.
+
+We can even use version number to control the application's "updating" mechanism.
+In the first response to the client, a tiny script should check server's version and 
+decide whether the application in `localStorage` should be updated or not. 
