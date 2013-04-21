@@ -26,3 +26,9 @@ This tech can help us manage this "application" like ordinary applications in OS
 We can even use version number to control the application's "updating" mechanism.
 In the first response to the client, a tiny script should check server's version and 
 decide whether the application in `localStorage` should be updated or not. 
+
+---
+
+License
+
+GPLv3
